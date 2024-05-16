@@ -129,6 +129,9 @@ WCONINJH
  'WI_1' WATER  OPEN     5000       1*       1*    1*    4*  RATE /
 /
 
+RPTRST
+  BASIC=4 FREQ=10 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 APR 2000 /
 /
@@ -201,6 +204,9 @@ WRFTPLT
  'WI_2'   YES    NO    NO /
 /
 
+RPTRST
+  BASIC=2 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 JLY 2000 /
 /
@@ -217,6 +223,9 @@ WCONINJH
  'WI_2' WATER  OPEN 4665.691       1*       1*    1*    4*  RATE /
 /
 
+RPTRST
+  BASIC=4 FREQ=10 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 AUG 2000 /
 /
@@ -367,6 +376,9 @@ WRFTPLT
  'OP_5'   YES    NO    NO /
 /
 
+RPTRST
+  BASIC=2 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 FEB 2001 /
 /
@@ -385,6 +397,9 @@ WCONINJH
  'WI_2' WATER  OPEN 4299.967       1*       1*    1*    4*  RATE /
 /
 
+RPTRST
+  BASIC=4 FREQ=10 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 MAR 2001 /
 /
@@ -511,6 +526,9 @@ WCONINJH
  'WI_2' WATER  OPEN 4217.638       1*       1*    1*    4*  RATE /
 /
 
+RPTRST
+  BASIC=2 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 AUG 2001 /
 /
@@ -529,6 +547,9 @@ WCONINJH
  'WI_2' WATER  OPEN 4205.168       1*       1*    1*    4*  RATE /
 /
 
+RPTRST
+  BASIC=4 FREQ=10 FLOWS RFIP DEN RPORV /
+  
 DATES
  1 SEP 2001 /
 /

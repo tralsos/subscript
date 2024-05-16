@@ -36,7 +36,7 @@ START
 OIL
 GAS
 WATER
---DISGAS
+DISGAS
 
 -- Measurement unit used
 METRIC
@@ -101,7 +101,7 @@ NORSSPEC
 --GRID SECTION
 -------------------------------------------------------------------------
 
-GRID -- Grid Section
+GRID  
 
 --Disable echoing of the input file
 NOECHO
@@ -244,7 +244,7 @@ RPTSOL
   FIP=2 RESTART=2 FIPRESV /
 
 RPTRST
-  BASIC=5 FLOWS /
+  BASIC=4 FREQ=10 FLOWS RFIP DEN RPORV /
 
 ------------------------------------------------------------------------
 --SUMMARY SECTION
